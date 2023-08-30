@@ -11,7 +11,7 @@ def test_update_price():
 def test_original_list_unchanged():
     """Test if the original product list remains unchanged."""
     original_list = main.products.copy()
-    main.update_price(main.products, main.prices)
+    main.update_price(main.products, main.new_prices)
     assert main.products == original_list, f"Expected the original list to remain unchanged, but got {products}."
 
 def test_calculate_total():
