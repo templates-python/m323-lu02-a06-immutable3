@@ -11,7 +11,7 @@ new_prices = {
 }
 
 
-def update_price(products, new_prices):
+def update_prices(products, new_prices):
     # Update the price in the new products dictionary
     pass
 
