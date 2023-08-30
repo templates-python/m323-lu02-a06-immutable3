@@ -11,7 +11,7 @@ prices = {
 }
 
 
-def update_prices(products, new_prices):
+def update_price(products, new_prices):
     updated_products = []
     for product in products:
         updated_product = product.copy()
