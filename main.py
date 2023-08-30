@@ -4,14 +4,14 @@ products = [
     # Add more products as needed
 ]
 
-prices = {
+new_prices = {
     'Apple': 0.5,
     'Banana': 0.3,
     # Add more prices as needed
 }
 
 
-def update_price(products, new_prices):
+def update_prices(products, new_prices):
     updated_products = []
     for product in products:
         updated_product = product.copy()
