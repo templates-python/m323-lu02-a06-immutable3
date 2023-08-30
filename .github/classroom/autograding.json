@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "test_update_price",
+      "name": "test_update_prices",
       "setup": "sudo -H pip3 install -r requirements.txt",
-      "run": "pytest -v  -k \"test_update_price\"",
+      "run": "pytest -v  -k \"test_update_prices\"",
       "input": "",
       "output": "",
       "comparison": "included",
