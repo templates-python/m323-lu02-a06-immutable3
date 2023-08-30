@@ -4,14 +4,14 @@ products = [
     # Add more products as needed
 ]
 
-prices = {
+new_prices = {
     'Apple': 0.5,
     'Banana': 0.3,
     # Add more prices as needed
 }
 
 def update_price(product_name, new_price):
-    # Update the price in the prices dictionary
+    # Update the price in the new products dictionary
     pass
 
 def calculate_total():
