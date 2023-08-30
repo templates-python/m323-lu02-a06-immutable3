@@ -10,13 +10,16 @@ new_prices = {
     # Add more prices as needed
 }
 
+
 def update_price(products, new_prices):
     # Update the price in the new products dictionary
     pass
 
-def calculate_total():
+
+def calculate_total(products):
     # Calculate the total cost based on products and prices
     pass
+
 
 if __name__ == '__main__':
     # Test your functions here
