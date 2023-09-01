@@ -1,5 +1,6 @@
 import main
 
+
 def test_update_price():
     """Test if the function correctly updates the prices."""
     new_prices = {'Apple': 1.5, 'Banana': 0.9}
@@ -8,11 +9,13 @@ def test_update_price():
         assert item['price'] == new_prices.get(item['product'], item['price']), \
             f"Expected {new_prices.get(item['product'], item['price'])}, but got {item['price']}."
 
+
 def test_original_list_unchanged():
     """Test if the original product list remains unchanged."""
     original_list = main.products.copy()
     main.update_prices(main.products, main.new_prices)
     assert main.products == original_list, f"Expected the original list to remain unchanged, but got {products}."
+
 
 def test_calculate_total():
     """Test if the total cost is correctly calculated."""
