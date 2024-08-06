@@ -1,0 +1,20 @@
+[
+  {
+    "name": "test_update_price",
+    "function": "test_update_price",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_original_list_unchanged",
+    "function": "test_original_list_unchanged",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_calculate_total",
+    "function": "test_calculate_total",
+    "timeout": 10,
+    "points": 1
+  }
+]
