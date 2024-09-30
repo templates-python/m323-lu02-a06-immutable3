@@ -31,7 +31,7 @@ def calculate_total(products):
 
 if __name__ == '__main__':
     updated_products = update_prices(products, prices)
-    print("Ursprüngliche Produkte:", products)
-    print("Aktualisierte Produkte:", updated_products)
-    print("Gesamtpreis (alt):", calculate_total(products))
-    print("Gesamtpreis (neu):", calculate_total(updated_products))
+    print('Ursprüngliche Produkte:', products)
+    print('Aktualisierte Produkte:', updated_products)
+    print('Gesamtpreis (alt):', calculate_total(products))
+    print('Gesamtpreis (neu):', calculate_total(updated_products))
