@@ -16,13 +16,13 @@ new_prices = {
 }
 
 
-def update_prices(products, new_prices):
-    # Update the price in the new products dictionary
+def update_prices(product_list, price_updates):
+    # Update the price in the new product list
     pass
 
 
-def calculate_total(products):
-    # Calculate the total cost based on products and prices
+def calculate_total(product_list):
+    # Calculate the total cost based on the products and their prices
     pass
 
 
