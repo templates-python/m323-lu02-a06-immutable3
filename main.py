@@ -1,3 +1,8 @@
+"""Einkaufsliste.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu02/aufgaben/immutable3
+"""
+
 products = [
     {'product': 'Apple', 'quantity': 5, 'price': 1.2},
     {'product': 'Banana', 'quantity': 2, 'price': 0.8},
